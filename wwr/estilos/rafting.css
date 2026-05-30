@@ -1,0 +1,151 @@
+:root {
+    --cor-primaria: #0b4f6c;
+    --cor-secundaria: #01baef;
+    --cor-destaque1: #023047;
+    --cor-destaque2: #ffb703;
+    --cor-clara: #ffffff;
+    --cor-fundo: #f4f4f4;
+
+    --fonte-titulo: Georgia, "Times New Roman", serif;
+    --fonte-body: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-body);
+    color: var(--cor-destaque1);
+    background-color: var(--cor-fundo);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cor-primaria);
+    padding: 16px;
+}
+
+header img {
+    width: 120px;
+    height: auto;
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+header nav a {
+    color: var(--cor-clara);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: var(--cor-destaque2);
+}
+
+h1,
+h2 {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-primaria);
+    text-align: center;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero > img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: rgba(2, 48, 71, 0.75);
+    color: var(--cor-clara);
+    font-size: 2rem;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    right: 40px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 16px;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    margin-left: 16px;
+    border: 2px solid var(--cor-primaria);
+}
+
+section {
+    background-color: var(--cor-clara);
+    border: 1px solid #cccccc;
+}
+
+section h2 {
+    margin-bottom: 12px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cor-primaria);
+    color: var(--cor-clara);
+    padding: 16px;
+    margin-top: 16px;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+}
+
+.redes-sociais img {
+    width: 32px;
+    height: 32px;
+}
