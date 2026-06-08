@@ -17,7 +17,7 @@
         <nav>
             <a href="index.html">Página Inicial</a>
             <a href="sobre.html">Sobre Nós</a>
-            <a href="viagens.html">Viagens</a>
+            <a href="passeios.html">Passeios</a>
             <a href="contato.html">Fale Conosco</a>
         </nav>
     </header>
@@ -53,18 +53,18 @@
                 <fieldset>
                     <legend>Propósito da Mensagem</legend>
 
-                    <label>
-                        <input type="radio" name="purpose" value="consulta-geral" required>
+                    <label for="consulta-geral">
+                        <input type="radio" id="consulta-geral" name="purpose" value="consulta-geral" required>
                         Consulta Geral
                     </label>
 
-                    <label>
-                        <input type="radio" name="purpose" value="reserva">
+                    <label for="pergunta-reserva">
+                        <input type="radio" id="pergunta-reserva" name="purpose" value="pergunta-reserva">
                         Pergunta sobre Reserva
                     </label>
 
-                    <label>
-                        <input type="radio" name="purpose" value="sugestao">
+                    <label for="sugestao-site">
+                        <input type="radio" id="sugestao-site" name="purpose" value="sugestao-site">
                         Sugestão de Site
                     </label>
                 </fieldset>
@@ -72,8 +72,8 @@
                 <label for="message">Mensagem</label>
                 <textarea id="message" name="message" rows="5" placeholder="Digite aqui" required></textarea>
 
-                <label class="newsletter">
-                    <input type="checkbox" name="newsletter">
+                <label class="newsletter" for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter">
                     Quero receber a newsletter mensal
                 </label>
 
@@ -105,12 +105,13 @@
 
     <footer>
         <p>© 2026 Companhia de Rafting em Corredeiras | Lucas Luz</p>
-        <nav class="sociallinks">
+
+        <nav class="redes-sociais">
             <a href="https://facebook.com">
                 <img src="imagens/facebook.svg" alt="Facebook">
             </a>
-            <a href="https://twitter.com">
-                <img src="imagens/linkedin.svg" alt="Twitter">
+            <a href="https://linkedin.com">
+                <img src="imagens/linkedin.svg" alt="LinkedIn">
             </a>
             <a href="https://instagram.com">
                 <img src="imagens/instagram.svg" alt="Instagram">
