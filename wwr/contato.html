@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco | Companhia de Rafting em Corredeiras</title>
+    <meta name="description"
+        content="Entre em contato com a Companhia de Rafting em Corredeiras para dúvidas, reservas e sugestões.">
+    <meta name="author" content="Lucas Luz">
+    <link rel="stylesheet" href="estilos/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="imagens/logo.png" alt="Logo da Companhia de Rafting">
+        <nav>
+            <a href="index.html">Página Inicial</a>
+            <a href="sobre.html">Sobre Nós</a>
+            <a href="viagens.html">Viagens</a>
+            <a href="contato.html">Fale Conosco</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Companhia de Rafting em Corredeiras</h1>
+
+        <section class="contact-info">
+            <p><strong>123 Rua Principal do Rio</strong></p>
+            <p><strong>Foz do Iguaçu, Paraná</strong></p>
+            <p><strong>+55 45 99999-9999</strong></p>
+            <p><strong>info@corredeiras.com</strong></p>
+
+            <iframe src="https://www.google.com/maps?q=Foz%20do%20Igua%C3%A7u%20Paran%C3%A1&output=embed" width="600"
+                height="350" loading="lazy" title="Mapa da Companhia de Rafting em Corredeiras">
+            </iframe>
+        </section>
+
+        <section class="contact-layout">
+            <div class="map-box">
+                <iframe src="https://www.google.com/maps?q=Foz%20do%20Igua%C3%A7u%20Paran%C3%A1&output=embed"
+                    width="500" height="350" loading="lazy" title="Mapa de localização da empresa">
+                </iframe>
+            </div>
+
+            <form class="contact-form">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" placeholder="Digite aqui" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Digite aqui" required>
+
+                <fieldset>
+                    <legend>Propósito da Mensagem</legend>
+
+                    <label>
+                        <input type="radio" name="purpose" value="consulta-geral" required>
+                        Consulta Geral
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose" value="reserva">
+                        Pergunta sobre Reserva
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose" value="sugestao">
+                        Sugestão de Site
+                    </label>
+                </fieldset>
+
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="5" placeholder="Digite aqui" required></textarea>
+
+                <label class="newsletter">
+                    <input type="checkbox" name="newsletter">
+                    Quero receber a newsletter mensal
+                </label>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+
+        <section class="employees">
+            <h2>Estamos Aqui para Servi-lo</h2>
+
+            <div class="employee-cards">
+                <figure>
+                    <img src="imagens/employee1.png" alt="Gerente de atendimento">
+                    <figcaption>Gerente de Atendimento</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="imagens/employee2.png" alt="Consultor de reservas">
+                    <figcaption>Consultor de Reservas</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="imagens/employee3.png" alt="Instrutor de rafting">
+                    <figcaption>Instrutor de Rafting</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Companhia de Rafting em Corredeiras | Lucas Luz</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="imagens/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="imagens/linkedin.svg" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="imagens/instagram.svg" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
